@@ -1,0 +1,48 @@
+name: Alpaca 2K paper execution every 20 minutes
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'check/scan are read-only; tick permits PAPER orders when enabled'
+        type: choice
+        default: check
+        options: [check, scan, tick]
+  schedule:
+    - cron: '10,30,50 13-21 * * 1-5'
+permissions:
+  contents: read
+concurrency:
+  group: cgt2k-dedicated-alpaca
+  cancel-in-progress: false
+jobs:
+  paper:
+    runs-on: ubuntu-latest
+    timeout-minutes: 19
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -e '.[test]' -r requirements-paper.txt
+      - name: Tests before broker access
+        run: python -m pytest -q tests test_paper_execution.py
+      - name: Dedicated PAPER runner
+        env:
+          RUN_MODE: ${{ inputs.mode || 'tick' }}
+          ALPACA_PAPER_KEY_ID: ${{ secrets.ALPACA_PAPER_KEY_ID }}
+          ALPACA_PAPER_SECRET_KEY: ${{ secrets.ALPACA_PAPER_SECRET_KEY }}
+          ALPACA_EXPECTED_PAPER_ACCOUNT_ID: ${{ vars.ALPACA_EXPECTED_PAPER_ACCOUNT_ID }}
+          ALPACA_PAPER_ENABLED: ${{ vars.ALPACA_PAPER_ENABLED || 'false' }}
+          ALPACA_PAPER_KILL_SWITCH: ${{ vars.ALPACA_PAPER_KILL_SWITCH || 'false' }}
+          ALPACA_PAPER_STRATEGY: ${{ vars.ALPACA_PAPER_STRATEGY || 'compression_family' }}
+          ALPACA_DATA_FEED: ${{ vars.ALPACA_DATA_FEED || 'iex' }}
+        run: python paper_execution.py --mode "$RUN_MODE"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: paper-${{ github.run_id }}-${{ github.run_attempt }}
+          path: reports/paper/
+          if-no-files-found: warn
+          retention-days: 30
