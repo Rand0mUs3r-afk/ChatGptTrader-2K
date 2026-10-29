@@ -1,0 +1,35 @@
+name: Alpaca read-only failure diagnostics
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: cgt2k-dedicated-alpaca
+  cancel-in-progress: false
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements-paper.txt
+      - name: Test sanitized diagnostics
+        run: python -m unittest -v test_paper_diagnostics.py
+      - name: Read-only account and order diagnostics
+        env:
+          ALPACA_PAPER_KEY_ID: ${{ secrets.ALPACA_PAPER_KEY_ID }}
+          ALPACA_PAPER_SECRET_KEY: ${{ secrets.ALPACA_PAPER_SECRET_KEY }}
+          ALPACA_EXPECTED_PAPER_ACCOUNT_ID: ${{ vars.ALPACA_EXPECTED_PAPER_ACCOUNT_ID }}
+        run: python paper_diagnostics.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: paper-diagnostics-${{ github.run_id }}
+          path: reports/paper-diagnostics/
+          if-no-files-found: warn
+          retention-days: 7
