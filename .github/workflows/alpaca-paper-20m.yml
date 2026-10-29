@@ -27,7 +27,7 @@ jobs:
           python-version: '3.12'
       - run: python -m pip install -e '.[test]' -r requirements-paper.txt
       - name: Tests before broker access
-        run: python -m pytest -q tests test_paper_execution.py
+        run: python -m pytest -q tests test_paper_execution.py test_paper_diagnostics.py test_paper_stage_report.py
       - name: Dedicated PAPER runner
         env:
           RUN_MODE: ${{ inputs.mode || 'tick' }}
@@ -38,7 +38,7 @@ jobs:
           ALPACA_PAPER_KILL_SWITCH: ${{ vars.ALPACA_PAPER_KILL_SWITCH || 'false' }}
           ALPACA_PAPER_STRATEGY: ${{ vars.ALPACA_PAPER_STRATEGY || 'compression_family' }}
           ALPACA_DATA_FEED: ${{ vars.ALPACA_DATA_FEED || 'iex' }}
-        run: python paper_execution.py --mode "$RUN_MODE"
+        run: python paper_stage_report.py --mode "$RUN_MODE"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
