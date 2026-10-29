@@ -1,0 +1,12 @@
+{
+  "starting_equity": "2000",
+  "total_risk_limit": "15",
+  "position_risk_fraction": "0.06",
+  "max_position_fraction": "0.25",
+  "max_positions": 4,
+  "min_history_samples": 20,
+  "min_reward_risk": "1.5",
+  "paper_only": true,
+  "execution_enabled": false,
+  "currency": "USD"
+}

@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "source": "SYNTHETIC_EXAMPLE_NOT_MARKET_DATA",
+  "candidates": [
+    {
+      "instrument": {"symbol": "TEST", "exchange": "XNAS", "currency": "USD"},
+      "entry": "50",
+      "stop": "47",
+      "target": "56",
+      "quality": ".8",
+      "history_score": "1",
+      "history_lower": ".4",
+      "history_samples": 30
+    }
+  ]
+}
