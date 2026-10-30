@@ -1,0 +1,19 @@
+# Manual tickers: one exact Alpaca US-equity symbol per line.
+# Edit this file in GitHub on main and commit; the next eligible scan reads it.
+# Blank lines and # comments are ignored; lowercase becomes uppercase; duplicates merge.
+# Examples below are comments, NOT active selections:
+# AAPL
+# NVDA
+# BRK.B
+#
+# Supplements the normal universe; not a forced-buy list or priority override.
+# All historical bars and fresh entry quotes come directly from Alpaca.
+# Live quotes are checked for shortlisted entry candidates, not streamed for every ticker.
+# Uses the existing ALPACA_DATA_FEED setting (iex default; sip requires entitlement).
+# Manual stocks must pass strategy/history/quote/cash/risk/session checks.
+# Existing AMD/AMZN exclusions remain. Crypto, OTC and inactive/untradable assets are skipped.
+# Use Alpaca symbols exactly; no automatic Yahoo '-' versus '.' conversions.
+# Limit: 100 unique tickers / 64 KiB. Invalid lines are reported, not traded.
+# See manual_watchlist output in the run log/Summary and manual_watchlist.json artifact.
+# Too little/missing historical data can still cause the strategy scanner to skip a ticker.
+# Leave all lines commented for the original normal-universe behavior.
