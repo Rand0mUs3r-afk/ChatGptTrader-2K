@@ -42,3 +42,30 @@ The SQLite prototype is intentionally limited to initially empty-account dry-run
 4. Add TSX/CAD data and broker adapters, exchange calendars and explicit FX valuation. XTSE/CAD instruments are rejected until then.
 
 See docs/ARCHITECTURE.md for boundaries and outstanding work. The original ChatGptTrader, crypto bot and Shorts bot are unchanged.
+
+FROM PERPLEXITY OCT 30
+
+## Dated clarification: original milestone versus newer workflow
+
+The original text above is preserved as the earlier architecture-milestone description. It is not a complete inventory of the current repository: a newer Alpaca paper-execution workflow is now present. Its existence does not establish successful broker operation, strategy parity, or resolution of every earlier prototype limitation. This review did not execute the runner or its tests.
+
+## Automation configuration inspected
+
+- Workflow: .github/workflows/alpaca-paper-20m.yml (Alpaca 2K paper execution every 20 minutes).
+- Configured cron: 10,30,50 13-21 * * 1-5, meaning minutes 10, 30 and 50 during UTC hours 13 through 21, Monday through Friday.
+- Manual modes: check, scan and tick; the manual default is check. Scheduled runs select tick.
+- The workflow runs regression tests before invoking python paper_watchlist.py --mode with the selected mode. Tick is described as permitting PAPER orders when enabled, not real-money orders.
+- It reads ALPACA_PAPER_ENABLED (default false), ALPACA_PAPER_KILL_SWITCH (default false), the expected paper-account ID, paper credentials, strategy selection and data-feed selection. Actual variable/secret values were not inspected.
+- CURRENT ENABLED/DISABLED STATUS: NOT VERIFIED. A configured cron is not evidence that GitHub Actions is enabled, execution switches permit orders, credentials work, or scheduled runs succeed. The connected review tools did not expose actual workflow activation or repository Actions settings.
+
+## Visibility and account separation
+
+The repository was listed PUBLIC in the GitHub inventory reviewed on October 30, despite the older Private wording above. Verify current visibility in repository settings; README wording is not an access-control setting. Never commit credentials or sensitive account records.
+
+This project is related to ChatGptTrader but must not be assumed to share its account, state or risk budget. Verify dedicated paper-account identities before enabling competing bots. Historical scores are not calibrated win probabilities.
+
+## Manual stop
+
+To prevent new triggers, open Actions > Alpaca 2K paper execution every 20 minutes > workflow menu > Disable workflow. Cancel queued/running runs separately. Stopping the workflow does not close existing broker-paper positions or cancel outstanding orders, and may stop workflow-managed position checks. Inspect the paper account separately.
+
+This append changes documentation only. It does not modify code, schedules, enable flags, kill switches, credentials or broker accounts. This is a dated review, not a continuously refreshed operational dashboard.
