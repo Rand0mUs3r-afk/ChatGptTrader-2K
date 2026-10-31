@@ -1,0 +1,45 @@
+name: Yahoo movers discovery every 30 minutes
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0,30 13-22 * * 1-5'
+permissions:
+  contents: write
+concurrency:
+  group: cgt2k-discovery-state-writer
+  cancel-in-progress: false
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -e '.[test]' -r requirements-discovery.txt
+      - run: python -m pytest -q tests test_paper_*.py test_discovery_pipeline.py
+      - name: Load discovery state
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python discovery_state.py load
+      - name: Read-only Yahoo discovery and Alpaca validation
+        env:
+          ALPACA_PAPER_KEY_ID: ${{ secrets.ALPACA_PAPER_KEY_ID }}
+          ALPACA_PAPER_SECRET_KEY: ${{ secrets.ALPACA_PAPER_SECRET_KEY }}
+          ALPACA_EXPECTED_PAPER_ACCOUNT_ID: ${{ vars.ALPACA_EXPECTED_PAPER_ACCOUNT_ID }}
+        run: python yahoo_discovery.py
+      - name: Publish discovery-state branch only
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python discovery_state.py save
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: discoveries-${{ github.run_id }}-${{ github.run_attempt }}
+          path: .discovery-state/watchlist_auto.*
+          include-hidden-files: true
+          if-no-files-found: warn
+          retention-days: 30

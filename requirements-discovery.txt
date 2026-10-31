@@ -1,0 +1,2 @@
+-r requirements-paper.txt
+yfinance>=0.2.65,<2
