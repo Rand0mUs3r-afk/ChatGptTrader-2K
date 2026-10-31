@@ -20,19 +20,28 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m pip install -e '.[test]' -r requirements-paper.txt
-      - run: python -m pytest -q tests test_paper_*.py test_discovery_pipeline.py
+      - run: python -m pytest -q tests test_paper_*.py test_discovery_pipeline.py test_workflow_summary.py
       - name: Load optional discoveries
         env:
           GH_TOKEN: ${{ github.token }}
         run: python discovery_state.py load --optional
       - name: Read-only completed-session research
+        id: runner
         env:
           ALPACA_PAPER_KEY_ID: ${{ secrets.ALPACA_PAPER_KEY_ID }}
           ALPACA_PAPER_SECRET_KEY: ${{ secrets.ALPACA_PAPER_SECRET_KEY }}
           ALPACA_EXPECTED_PAPER_ACCOUNT_ID: ${{ vars.ALPACA_EXPECTED_PAPER_ACCOUNT_ID }}
           ALPACA_PAPER_STRATEGY: ${{ vars.ALPACA_PAPER_STRATEGY || 'compression_family' }}
           ALPACA_DATA_FEED: ${{ vars.ALPACA_DATA_FEED || 'iex' }}
-        run: python paper_pipeline.py --mode post-close
+        run: |
+          set -o pipefail
+          mkdir -p reports/paper
+          GITHUB_STEP_SUMMARY='' python paper_pipeline.py --mode post-close | tee reports/paper/runner.log
+      - name: Findings summary
+        if: always()
+        env:
+          RUN_OUTCOME: ${{ steps.runner.outcome }}
+        run: python workflow_summary.py --kind paper
       - uses: actions/upload-artifact@v4
         if: always()
         with:

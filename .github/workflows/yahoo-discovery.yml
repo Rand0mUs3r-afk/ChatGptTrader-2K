@@ -20,21 +20,29 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m pip install -e '.[test]' -r requirements-discovery.txt
-      - run: python -m pytest -q tests test_paper_*.py test_discovery_pipeline.py
+      - run: python -m pytest -q tests test_paper_*.py test_discovery_pipeline.py test_workflow_summary.py
       - name: Load discovery state
         env:
           GH_TOKEN: ${{ github.token }}
         run: python discovery_state.py load
       - name: Read-only Yahoo discovery and Alpaca validation
+        id: runner
         env:
           ALPACA_PAPER_KEY_ID: ${{ secrets.ALPACA_PAPER_KEY_ID }}
           ALPACA_PAPER_SECRET_KEY: ${{ secrets.ALPACA_PAPER_SECRET_KEY }}
           ALPACA_EXPECTED_PAPER_ACCOUNT_ID: ${{ vars.ALPACA_EXPECTED_PAPER_ACCOUNT_ID }}
-        run: python yahoo_discovery.py
+        run: GITHUB_STEP_SUMMARY='' python yahoo_discovery.py
       - name: Publish discovery-state branch only
+        id: publish
         env:
           GH_TOKEN: ${{ github.token }}
         run: python discovery_state.py save
+      - name: Findings summary
+        if: always()
+        env:
+          RUN_OUTCOME: ${{ steps.runner.outcome }}
+          PUBLISH_OUTCOME: ${{ steps.publish.outcome }}
+        run: python workflow_summary.py --kind discovery
       - uses: actions/upload-artifact@v4
         if: always()
         with:
