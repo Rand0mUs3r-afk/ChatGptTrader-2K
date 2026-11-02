@@ -4,6 +4,7 @@ from functools import wraps
 import json
 import os
 from pathlib import Path
+from paper_scan_audit import with_scan_audit
 
 ERRORS = {
     "Universe unavailable": "UNIVERSE_SOURCE_UNAVAILABLE",
@@ -65,6 +66,7 @@ def execute(mode, enabled, expected):
     try:
         for name, fn in originals.items():
             setattr(base, name, instrument(fn, name, trace))
+        base.scan = with_scan_audit(base, base.scan, trace)
         report = base.run(TracedAPI(enabled), mode, expected)
     except Exception as exc:
         report.update(error_type=type(exc).__name__, error_code=error_code(exc))
