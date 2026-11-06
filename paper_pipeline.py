@@ -40,14 +40,19 @@ def execute(mode):
     import paper_stage_report as stage
     from paper_universe_fallback import with_fallback
     from paper_watchlist import with_watchlist
-    original = base.universe
+    from paper_entry_fix import with_replacements, scan_summary
+    from paper_scan_audit import with_scan_audit
+    original, original_run = base.universe, base.run
     base.universe = with_auto(with_watchlist(with_fallback(original)))
     report = dict(status="FAILED_CLOSED", mode=mode, paper_only=True)
     try:
         expected = os.getenv("ALPACA_EXPECTED_PAPER_ACCOUNT_ID", "")
         if mode != "post-close":
             enabled = mode == "tick" and os.getenv("ALPACA_PAPER_ENABLED", "false").lower() == "true"
-            return stage.execute(mode, enabled, expected)
+            base.run = with_replacements(base, original_run)
+            result = stage.execute(mode, enabled, expected)
+            scan_summary(result.get("diagnostics", {}))
+            return result
         api = ReadOnly(base.API(enabled=False))
         base.account(api, expected)
         clock = api.call("GET", "/v2/clock"); now = base.stamp(clock["timestamp"])
@@ -62,7 +67,10 @@ def execute(mode):
         if not following: raise ValueError("Next session missing")
         strategy = os.getenv("ALPACA_PAPER_STRATEGY", "compression_family")
         if strategy not in {"compression_family", "balanced_blend"}: raise ValueError("Unknown strategy")
-        rows = base.scan(api, calendar, now, strategy)
+        trace = {}
+        rows = with_scan_audit(base, base.scan, trace)(api, calendar, now, strategy)
+        report["diagnostics"] = trace
+        scan_summary(trace)
         previews = []
         for i,r in enumerate(rows,1):
             tp = base.target(r["highs"],base.num(r["reference"]))
@@ -77,6 +85,7 @@ def execute(mode):
         return report
     finally:
         base.universe = original
+        base.run = original_run
 
 
 if __name__ == "__main__":

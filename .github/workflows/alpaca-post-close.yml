@@ -41,7 +41,9 @@ jobs:
         if: always()
         env:
           RUN_OUTCOME: ${{ steps.runner.outcome }}
-        run: python workflow_summary.py --kind paper
+        run: |
+          python workflow_summary.py --kind paper
+          if [ -f reports/paper/scan_audit.md ]; then cat reports/paper/scan_audit.md >> "$GITHUB_STEP_SUMMARY"; fi
       - uses: actions/upload-artifact@v4
         if: always()
         with:
