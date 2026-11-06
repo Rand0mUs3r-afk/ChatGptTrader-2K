@@ -42,13 +42,16 @@ def execute(mode):
     from paper_watchlist import with_watchlist
     from paper_entry_fix import with_replacements, scan_summary
     from paper_scan_audit import with_scan_audit
+    from paper_group_cancel import with_group_cancels
     original, original_run = base.universe, base.run
+    original_manage = getattr(base, "manage", None)
     base.universe = with_auto(with_watchlist(with_fallback(original)))
     report = dict(status="FAILED_CLOSED", mode=mode, paper_only=True)
     try:
         expected = os.getenv("ALPACA_EXPECTED_PAPER_ACCOUNT_ID", "")
         if mode != "post-close":
             enabled = mode == "tick" and os.getenv("ALPACA_PAPER_ENABLED", "false").lower() == "true"
+            base.manage = with_group_cancels(original_manage, base.PREFIX)
             base.run = with_replacements(base, original_run)
             result = stage.execute(mode, enabled, expected)
             scan_summary(result.get("diagnostics", {}))
@@ -86,6 +89,7 @@ def execute(mode):
     finally:
         base.universe = original
         base.run = original_run
+        if original_manage is not None: base.manage = original_manage
 
 
 if __name__ == "__main__":
