@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "updated_at": "2026-11-11T18:15:22.626430+00:00",
+  "updated_at": "2026-11-11T19:27:16.525164+00:00",
   "entries": [
     {
       "symbol": "PEPG",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
       "expires_at": "2026-11-18T21:00:00+00:00",
       "reasons": [
         {
           "category": "current_smallcap_activity",
-          "change_pct": 14.123637,
+          "change_pct": 13.326394,
           "session": "2026-11-11"
         },
         {
@@ -47,7 +47,7 @@
     },
     {
       "symbol": "APP",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
       "expires_at": "2026-11-18T21:00:00+00:00",
       "reasons": [
         {
@@ -65,7 +65,7 @@
     },
     {
       "symbol": "ZIP",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
       "expires_at": "2026-11-18T21:00:00+00:00",
       "reasons": [
         {
@@ -103,7 +103,7 @@
     },
     {
       "symbol": "ARDT",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
       "expires_at": "2026-11-18T21:00:00+00:00",
       "reasons": [
         {
@@ -121,7 +121,7 @@
     },
     {
       "symbol": "XERS",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
       "expires_at": "2026-11-18T21:00:00+00:00",
       "reasons": [
         {
@@ -139,7 +139,7 @@
     },
     {
       "symbol": "GOGO",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
       "expires_at": "2026-11-18T21:00:00+00:00",
       "reasons": [
         {
@@ -157,7 +157,7 @@
     },
     {
       "symbol": "MNTN",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
       "expires_at": "2026-11-18T21:00:00+00:00",
       "reasons": [
         {
@@ -170,7 +170,7 @@
     },
     {
       "symbol": "FIP",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
       "expires_at": "2026-11-18T21:00:00+00:00",
       "reasons": [
         {
@@ -188,7 +188,7 @@
     },
     {
       "symbol": "VCEL",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
       "expires_at": "2026-11-18T21:00:00+00:00",
       "reasons": [
         {
@@ -206,7 +206,7 @@
     },
     {
       "symbol": "TBLA",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
       "expires_at": "2026-11-18T21:00:00+00:00",
       "reasons": [
         {
@@ -219,7 +219,7 @@
     },
     {
       "symbol": "FLY",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
       "expires_at": "2026-11-18T21:00:00+00:00",
       "reasons": [
         {
@@ -232,7 +232,7 @@
     },
     {
       "symbol": "AEVA",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
       "expires_at": "2026-11-18T21:00:00+00:00",
       "reasons": [
         {
@@ -245,38 +245,20 @@
     },
     {
       "symbol": "CRWV",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
       "expires_at": "2026-11-18T21:00:00+00:00",
       "reasons": [
         {
           "category": "current_day_gainers",
-          "change_pct": 26.571083,
-          "session": "2026-11-11"
-        },
-        {
-          "category": "current_most_actives",
-          "change_pct": 26.575008,
+          "change_pct": 24.389498,
           "session": "2026-11-11"
         }
       ],
-      "strength": 26.575008
-    },
-    {
-      "symbol": "AXTI",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_day_gainers",
-          "change_pct": 23.49274,
-          "session": "2026-11-11"
-        }
-      ],
-      "strength": 23.49274
+      "strength": 24.389498
     },
     {
       "symbol": "AMRC",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
       "expires_at": "2026-11-18T21:00:00+00:00",
       "reasons": [
         {
@@ -304,12 +286,12 @@
     },
     {
       "symbol": "SECZ",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
       "expires_at": "2026-11-18T21:00:00+00:00",
       "reasons": [
         {
           "category": "current_smallcap_activity",
-          "change_pct": 8.323565,
+          "change_pct": 7.971868,
           "session": "2026-11-11"
         },
         {
@@ -336,47 +318,34 @@
       "strength": 22.38163543383187
     },
     {
-      "symbol": "AZTA",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
+      "symbol": "AXTI",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
       "expires_at": "2026-11-18T21:00:00+00:00",
       "reasons": [
         {
           "category": "current_day_gainers",
-          "change_pct": 21.566204,
+          "change_pct": 20.987026,
           "session": "2026-11-11"
         }
       ],
-      "strength": 21.566204
+      "strength": 20.987026
     },
     {
       "symbol": "FRMI",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
       "expires_at": "2026-11-18T21:00:00+00:00",
       "reasons": [
         {
           "category": "current_smallcap_activity",
-          "change_pct": 20.779224,
+          "change_pct": 19.8052,
           "session": "2026-11-11"
         }
       ],
-      "strength": 20.779224
-    },
-    {
-      "symbol": "NBIS",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_day_gainers",
-          "change_pct": 19.313437,
-          "session": "2026-11-11"
-        }
-      ],
-      "strength": 19.313437
+      "strength": 19.8052
     },
     {
       "symbol": "AAON",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
       "expires_at": "2026-11-18T21:00:00+00:00",
       "reasons": [
         {
@@ -403,39 +372,13 @@
       "strength": 19.3096920798401
     },
     {
-      "symbol": "AAOI",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_day_gainers",
-          "change_pct": 19.308779,
-          "session": "2026-11-11"
-        }
-      ],
-      "strength": 19.308779
-    },
-    {
-      "symbol": "RXT",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_smallcap_activity",
-          "change_pct": 18.470144,
-          "session": "2026-11-11"
-        }
-      ],
-      "strength": 18.470144
-    },
-    {
       "symbol": "BW",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
       "expires_at": "2026-11-18T21:00:00+00:00",
       "reasons": [
         {
           "category": "current_smallcap_activity",
-          "change_pct": 12.0401325,
+          "change_pct": 10.825896,
           "session": "2026-11-11"
         },
         {
@@ -460,6 +403,602 @@
         }
       ],
       "strength": 18.205806442359453
+    },
+    {
+      "symbol": "RXT",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_smallcap_activity",
+          "change_pct": 17.350742,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 17.350742
+    },
+    {
+      "symbol": "NBIS",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_day_gainers",
+          "change_pct": 17.174965,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 17.174965
+    },
+    {
+      "symbol": "HIMS",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "latest_completed_movers",
+          "change_pct": -16.608549627688717,
+          "session": "2026-11-10"
+        },
+        {
+          "category": "previous_session_movers",
+          "change_pct": -16.608549627688717,
+          "session": "2026-11-10"
+        }
+      ],
+      "strength": 16.608549627688717
+    },
+    {
+      "symbol": "EQPT",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_day_gainers",
+          "change_pct": 12.855557,
+          "session": "2026-11-11"
+        },
+        {
+          "category": "latest_completed_movers",
+          "change_pct": -16.50215538644226,
+          "session": "2026-11-10"
+        },
+        {
+          "category": "previous_session_movers",
+          "change_pct": -16.50215538644226,
+          "session": "2026-11-10"
+        }
+      ],
+      "strength": 16.50215538644226
+    },
+    {
+      "symbol": "LEGN",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_day_losers",
+          "change_pct": -6.761387,
+          "session": "2026-11-11"
+        },
+        {
+          "category": "latest_completed_movers",
+          "change_pct": -15.973655503796014,
+          "session": "2026-11-10"
+        },
+        {
+          "category": "previous_session_movers",
+          "change_pct": -15.973655503796014,
+          "session": "2026-11-10"
+        }
+      ],
+      "strength": 15.973655503796014
+    },
+    {
+      "symbol": "RUM",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_day_gainers",
+          "change_pct": 15.459882,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 15.459882
+    },
+    {
+      "symbol": "REZI",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_day_gainers",
+          "change_pct": 15.269919,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 15.269919
+    },
+    {
+      "symbol": "NOVT",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "latest_completed_movers",
+          "change_pct": -15.255512600940001,
+          "session": "2026-11-10"
+        },
+        {
+          "category": "previous_session_movers",
+          "change_pct": -15.255512600940001,
+          "session": "2026-11-10"
+        }
+      ],
+      "strength": 15.255512600940001
+    },
+    {
+      "symbol": "CSQR",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "latest_completed_gainers",
+          "change_pct": 14.73477362507898,
+          "session": "2026-11-10"
+        },
+        {
+          "category": "previous_session_gainers",
+          "change_pct": 14.73477362507898,
+          "session": "2026-11-10"
+        }
+      ],
+      "strength": 14.73477362507898
+    },
+    {
+      "symbol": "BE",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_day_gainers",
+          "change_pct": 14.273,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 14.273
+    },
+    {
+      "symbol": "BGSI",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_day_losers",
+          "change_pct": -13.265534,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 13.265534
+    },
+    {
+      "symbol": "FRVO",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_day_gainers",
+          "change_pct": 13.093143,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 13.093143
+    },
+    {
+      "symbol": "DELL",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_day_gainers",
+          "change_pct": 13.072554,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 13.072554
+    },
+    {
+      "symbol": "FORM",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_day_gainers",
+          "change_pct": 12.664956,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 12.664956
+    },
+    {
+      "symbol": "ACAD",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "latest_completed_gainers",
+          "change_pct": 10.787882949366722,
+          "session": "2026-11-10"
+        },
+        {
+          "category": "previous_session_gainers",
+          "change_pct": 10.787882949366722,
+          "session": "2026-11-10"
+        }
+      ],
+      "strength": 10.787882949366722
+    },
+    {
+      "symbol": "CHTR",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "latest_completed_gainers",
+          "change_pct": 10.610561826864862,
+          "session": "2026-11-10"
+        },
+        {
+          "category": "previous_session_gainers",
+          "change_pct": 10.610561826864862,
+          "session": "2026-11-10"
+        }
+      ],
+      "strength": 10.610561826864862
+    },
+    {
+      "symbol": "MARA",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "latest_completed_gainers",
+          "change_pct": 10.542173195446015,
+          "session": "2026-11-10"
+        },
+        {
+          "category": "previous_session_gainers",
+          "change_pct": 10.542173195446015,
+          "session": "2026-11-10"
+        }
+      ],
+      "strength": 10.542173195446015
+    },
+    {
+      "symbol": "SMCI",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_most_actives",
+          "change_pct": 10.363437,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 10.363437
+    },
+    {
+      "symbol": "ORCL",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_most_actives",
+          "change_pct": 9.47194,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 9.47194
+    },
+    {
+      "symbol": "SMCIP",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_smallcap_activity",
+          "change_pct": 8.642987,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 8.642987
+    },
+    {
+      "symbol": "CTMX",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_smallcap_activity",
+          "change_pct": 8.469257,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 8.469257
+    },
+    {
+      "symbol": "SEPN",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_day_losers",
+          "change_pct": -8.291937,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 8.291937
+    },
+    {
+      "symbol": "TTEC",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_smallcap_activity",
+          "change_pct": 8.124996,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 8.124996
+    },
+    {
+      "symbol": "HTZ",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_smallcap_activity",
+          "change_pct": 7.825504,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 7.825504
+    },
+    {
+      "symbol": "ZYME",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_day_losers",
+          "change_pct": -7.5015855,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 7.5015855
+    },
+    {
+      "symbol": "MIR",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_day_losers",
+          "change_pct": -6.931469,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 6.931469
+    },
+    {
+      "symbol": "TTEK",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_day_losers",
+          "change_pct": -6.8019753,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 6.8019753
+    },
+    {
+      "symbol": "COGT",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_day_losers",
+          "change_pct": -6.443459,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 6.443459
+    },
+    {
+      "symbol": "RGTI",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_day_losers",
+          "change_pct": -5.8847675,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 5.8847675
+    },
+    {
+      "symbol": "RVMD",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_day_losers",
+          "change_pct": -5.822019,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 5.822019
+    },
+    {
+      "symbol": "PGEN",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_smallcap_activity",
+          "change_pct": 5.6415954,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 5.6415954
+    },
+    {
+      "symbol": "KBR",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_day_losers",
+          "change_pct": -5.3470483,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 5.3470483
+    },
+    {
+      "symbol": "ONDS",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_most_actives",
+          "change_pct": 3.2315946,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 3.2315946
+    },
+    {
+      "symbol": "STLA",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_most_actives",
+          "change_pct": -3.1690192,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 3.1690192
+    },
+    {
+      "symbol": "NOK",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_most_actives",
+          "change_pct": 3.0909104,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 3.0909104
+    },
+    {
+      "symbol": "SPCX",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_most_actives",
+          "change_pct": -0.9993659,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 0.9993659
+    },
+    {
+      "symbol": "NU",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_most_actives",
+          "change_pct": 0.7036427,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 0.7036427
+    },
+    {
+      "symbol": "SOFI",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_most_actives",
+          "change_pct": 0.37384963,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 0.37384963
+    },
+    {
+      "symbol": "BBD",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_most_actives",
+          "change_pct": 0.19455698,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 0.19455698
+    },
+    {
+      "symbol": "GRAB",
+      "observed_at": "2026-11-11T19:27:16.525164+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_most_actives",
+          "change_pct": -0.14925003,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 0.14925003
+    },
+    {
+      "symbol": "AZTA",
+      "observed_at": "2026-11-11T18:15:22.626430+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_day_gainers",
+          "change_pct": 21.566204,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 21.566204
+    },
+    {
+      "symbol": "AAOI",
+      "observed_at": "2026-11-11T18:15:22.626430+00:00",
+      "expires_at": "2026-11-18T21:00:00+00:00",
+      "reasons": [
+        {
+          "category": "current_day_gainers",
+          "change_pct": 19.308779,
+          "session": "2026-11-11"
+        }
+      ],
+      "strength": 19.308779
     },
     {
       "symbol": "SNDK",
@@ -488,140 +1027,6 @@
       "strength": 16.69143
     },
     {
-      "symbol": "HIMS",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "latest_completed_movers",
-          "change_pct": -16.608549627688717,
-          "session": "2026-11-10"
-        },
-        {
-          "category": "previous_session_movers",
-          "change_pct": -16.608549627688717,
-          "session": "2026-11-10"
-        }
-      ],
-      "strength": 16.608549627688717
-    },
-    {
-      "symbol": "EQPT",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "latest_completed_movers",
-          "change_pct": -16.50215538644226,
-          "session": "2026-11-10"
-        },
-        {
-          "category": "previous_session_movers",
-          "change_pct": -16.50215538644226,
-          "session": "2026-11-10"
-        }
-      ],
-      "strength": 16.50215538644226
-    },
-    {
-      "symbol": "BE",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_day_gainers",
-          "change_pct": 16.354761,
-          "session": "2026-11-11"
-        }
-      ],
-      "strength": 16.354761
-    },
-    {
-      "symbol": "LEGN",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_day_losers",
-          "change_pct": -6.4179335,
-          "session": "2026-11-11"
-        },
-        {
-          "category": "latest_completed_movers",
-          "change_pct": -15.973655503796014,
-          "session": "2026-11-10"
-        },
-        {
-          "category": "previous_session_movers",
-          "change_pct": -15.973655503796014,
-          "session": "2026-11-10"
-        }
-      ],
-      "strength": 15.973655503796014
-    },
-    {
-      "symbol": "REZI",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_day_gainers",
-          "change_pct": 15.280206,
-          "session": "2026-11-11"
-        }
-      ],
-      "strength": 15.280206
-    },
-    {
-      "symbol": "NOVT",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "latest_completed_movers",
-          "change_pct": -15.255512600940001,
-          "session": "2026-11-10"
-        },
-        {
-          "category": "previous_session_movers",
-          "change_pct": -15.255512600940001,
-          "session": "2026-11-10"
-        }
-      ],
-      "strength": 15.255512600940001
-    },
-    {
-      "symbol": "FORM",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_day_gainers",
-          "change_pct": 15.041464,
-          "session": "2026-11-11"
-        }
-      ],
-      "strength": 15.041464
-    },
-    {
-      "symbol": "CSQR",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "latest_completed_gainers",
-          "change_pct": 14.73477362507898,
-          "session": "2026-11-10"
-        },
-        {
-          "category": "previous_session_gainers",
-          "change_pct": 14.73477362507898,
-          "session": "2026-11-10"
-        }
-      ],
-      "strength": 14.73477362507898
-    },
-    {
       "symbol": "CIFR",
       "observed_at": "2026-11-11T18:15:22.626430+00:00",
       "expires_at": "2026-11-18T21:00:00+00:00",
@@ -633,104 +1038,6 @@
         }
       ],
       "strength": 12.7168455
-    },
-    {
-      "symbol": "TTEC",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_smallcap_activity",
-          "change_pct": 12.54166,
-          "session": "2026-11-11"
-        }
-      ],
-      "strength": 12.54166
-    },
-    {
-      "symbol": "BGSI",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_day_losers",
-          "change_pct": -11.875821,
-          "session": "2026-11-11"
-        }
-      ],
-      "strength": 11.875821
-    },
-    {
-      "symbol": "SMCI",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_most_actives",
-          "change_pct": 11.802802,
-          "session": "2026-11-11"
-        }
-      ],
-      "strength": 11.802802
-    },
-    {
-      "symbol": "ACAD",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "latest_completed_gainers",
-          "change_pct": 10.787882949366722,
-          "session": "2026-11-10"
-        },
-        {
-          "category": "previous_session_gainers",
-          "change_pct": 10.787882949366722,
-          "session": "2026-11-10"
-        }
-      ],
-      "strength": 10.787882949366722
-    },
-    {
-      "symbol": "CHTR",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "latest_completed_gainers",
-          "change_pct": 10.610561826864862,
-          "session": "2026-11-10"
-        },
-        {
-          "category": "previous_session_gainers",
-          "change_pct": 10.610561826864862,
-          "session": "2026-11-10"
-        }
-      ],
-      "strength": 10.610561826864862
-    },
-    {
-      "symbol": "MARA",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_most_actives",
-          "change_pct": 7.361963,
-          "session": "2026-11-11"
-        },
-        {
-          "category": "latest_completed_gainers",
-          "change_pct": 10.542173195446015,
-          "session": "2026-11-10"
-        },
-        {
-          "category": "previous_session_gainers",
-          "change_pct": 10.542173195446015,
-          "session": "2026-11-10"
-        }
-      ],
-      "strength": 10.542173195446015
     },
     {
       "symbol": "WULF",
@@ -759,19 +1066,6 @@
       "strength": 8.751931
     },
     {
-      "symbol": "SEPN",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_day_losers",
-          "change_pct": -8.291937,
-          "session": "2026-11-11"
-        }
-      ],
-      "strength": 8.291937
-    },
-    {
       "symbol": "IREN",
       "observed_at": "2026-11-11T18:15:22.626430+00:00",
       "expires_at": "2026-11-18T21:00:00+00:00",
@@ -783,45 +1077,6 @@
         }
       ],
       "strength": 8.033457
-    },
-    {
-      "symbol": "HTZ",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_smallcap_activity",
-          "change_pct": 7.194388,
-          "session": "2026-11-11"
-        }
-      ],
-      "strength": 7.194388
-    },
-    {
-      "symbol": "CTMX",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_smallcap_activity",
-          "change_pct": 7.0707,
-          "session": "2026-11-11"
-        }
-      ],
-      "strength": 7.0707
-    },
-    {
-      "symbol": "MIR",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_day_losers",
-          "change_pct": -6.7757025,
-          "session": "2026-11-11"
-        }
-      ],
-      "strength": 6.7757025
     },
     {
       "symbol": "BORR",
@@ -837,19 +1092,6 @@
       "strength": 6.761004
     },
     {
-      "symbol": "COGT",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_day_losers",
-          "change_pct": -6.616136,
-          "session": "2026-11-11"
-        }
-      ],
-      "strength": 6.616136
-    },
-    {
       "symbol": "TE",
       "observed_at": "2026-11-11T18:15:22.626430+00:00",
       "expires_at": "2026-11-18T21:00:00+00:00",
@@ -863,19 +1105,6 @@
       "strength": 6.521739
     },
     {
-      "symbol": "ZYME",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_day_losers",
-          "change_pct": -6.3890605,
-          "session": "2026-11-11"
-        }
-      ],
-      "strength": 6.3890605
-    },
-    {
       "symbol": "SMMT",
       "observed_at": "2026-11-11T18:15:22.626430+00:00",
       "expires_at": "2026-11-18T21:00:00+00:00",
@@ -887,19 +1116,6 @@
         }
       ],
       "strength": 5.3841786
-    },
-    {
-      "symbol": "RVMD",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_day_losers",
-          "change_pct": -5.2729683,
-          "session": "2026-11-11"
-        }
-      ],
-      "strength": 5.2729683
     },
     {
       "symbol": "VIA",
@@ -928,58 +1144,6 @@
       "strength": 4.601692
     },
     {
-      "symbol": "NOK",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_most_actives",
-          "change_pct": 3.2102187,
-          "session": "2026-11-11"
-        }
-      ],
-      "strength": 3.2102187
-    },
-    {
-      "symbol": "SPCX",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_most_actives",
-          "change_pct": -0.39136037,
-          "session": "2026-11-11"
-        }
-      ],
-      "strength": 0.39136037
-    },
-    {
-      "symbol": "GRAB",
-      "observed_at": "2026-11-11T18:15:22.626430+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_most_actives",
-          "change_pct": -0.29816008,
-          "session": "2026-11-11"
-        }
-      ],
-      "strength": 0.29816008
-    },
-    {
-      "symbol": "RUM",
-      "observed_at": "2026-11-11T17:25:23.795576+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_day_gainers",
-          "change_pct": 16.43835,
-          "session": "2026-11-11"
-        }
-      ],
-      "strength": 16.43835
-    },
-    {
       "symbol": "GLXY",
       "observed_at": "2026-11-11T17:25:23.795576+00:00",
       "expires_at": "2026-11-18T21:00:00+00:00",
@@ -1004,19 +1168,6 @@
         }
       ],
       "strength": 14.688222
-    },
-    {
-      "symbol": "ORCL",
-      "observed_at": "2026-11-11T17:25:23.795576+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_most_actives",
-          "change_pct": 10.264445,
-          "session": "2026-11-11"
-        }
-      ],
-      "strength": 10.264445
     },
     {
       "symbol": "FUN",
@@ -1058,45 +1209,6 @@
       "strength": 4.553622
     },
     {
-      "symbol": "STLA",
-      "observed_at": "2026-11-11T17:25:23.795576+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_most_actives",
-          "change_pct": -2.934272,
-          "session": "2026-11-11"
-        }
-      ],
-      "strength": 2.934272
-    },
-    {
-      "symbol": "BBD",
-      "observed_at": "2026-11-11T17:25:23.795576+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_most_actives",
-          "change_pct": 0.9708776,
-          "session": "2026-11-11"
-        }
-      ],
-      "strength": 0.9708776
-    },
-    {
-      "symbol": "NU",
-      "observed_at": "2026-11-11T17:25:23.795576+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_most_actives",
-          "change_pct": 0.3725172,
-          "session": "2026-11-11"
-        }
-      ],
-      "strength": 0.3725172
-    },
-    {
       "symbol": "FLNC",
       "observed_at": "2026-11-11T16:22:05.011036+00:00",
       "expires_at": "2026-11-18T21:00:00+00:00",
@@ -1108,19 +1220,6 @@
         }
       ],
       "strength": 6.211819
-    },
-    {
-      "symbol": "RGTI",
-      "observed_at": "2026-11-11T16:22:05.011036+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_day_losers",
-          "change_pct": -5.9259205,
-          "session": "2026-11-11"
-        }
-      ],
-      "strength": 5.9259205
     },
     {
       "symbol": "NVDA",
@@ -1173,19 +1272,6 @@
         }
       ],
       "strength": 10.852622
-    },
-    {
-      "symbol": "DELL",
-      "observed_at": "2026-11-11T15:16:32.212713+00:00",
-      "expires_at": "2026-11-18T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_day_gainers",
-          "change_pct": 10.416288,
-          "session": "2026-11-11"
-        }
-      ],
-      "strength": 10.416288
     },
     {
       "symbol": "AESI",
@@ -1575,24 +1661,6 @@
       "strength": 31.56342196721724
     },
     {
-      "symbol": "FRVO",
-      "observed_at": "2026-11-10T23:04:32.566963+00:00",
-      "expires_at": "2026-11-17T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "previous_session_gainers",
-          "change_pct": 26.024368227710816,
-          "session": "2026-11-09"
-        },
-        {
-          "category": "previous_session_movers",
-          "change_pct": 26.024368227710816,
-          "session": "2026-11-09"
-        }
-      ],
-      "strength": 26.024368227710816
-    },
-    {
       "symbol": "LINC",
       "observed_at": "2026-11-10T23:04:32.566963+00:00",
       "expires_at": "2026-11-17T21:00:00+00:00",
@@ -1914,19 +1982,6 @@
       "strength": 5.0831814
     },
     {
-      "symbol": "SOFI",
-      "observed_at": "2026-11-10T19:41:00.958701+00:00",
-      "expires_at": "2026-11-17T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_most_actives",
-          "change_pct": -4.089549,
-          "session": "2026-11-10"
-        }
-      ],
-      "strength": 4.089549
-    },
-    {
       "symbol": "ACHR",
       "observed_at": "2026-11-10T19:41:00.958701+00:00",
       "expires_at": "2026-11-17T21:00:00+00:00",
@@ -2151,79 +2206,14 @@
         }
       ],
       "strength": 9.263295
-    },
-    {
-      "symbol": "SKYD",
-      "observed_at": "2026-11-10T15:34:32.878808+00:00",
-      "expires_at": "2026-11-17T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_day_losers",
-          "change_pct": -8.908042,
-          "session": "2026-11-10"
-        }
-      ],
-      "strength": 8.908042
-    },
-    {
-      "symbol": "ONON",
-      "observed_at": "2026-11-10T15:34:32.878808+00:00",
-      "expires_at": "2026-11-17T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_day_losers",
-          "change_pct": -7.6359224,
-          "session": "2026-11-10"
-        }
-      ],
-      "strength": 7.6359224
-    },
-    {
-      "symbol": "ONTO",
-      "observed_at": "2026-11-10T15:34:32.878808+00:00",
-      "expires_at": "2026-11-17T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_day_gainers",
-          "change_pct": 7.0320582,
-          "session": "2026-11-10"
-        }
-      ],
-      "strength": 7.0320582
-    },
-    {
-      "symbol": "SE",
-      "observed_at": "2026-11-10T15:34:32.878808+00:00",
-      "expires_at": "2026-11-17T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_day_gainers",
-          "change_pct": 6.9350133,
-          "session": "2026-11-10"
-        }
-      ],
-      "strength": 6.9350133
-    },
-    {
-      "symbol": "ADTN",
-      "observed_at": "2026-11-10T15:34:32.878808+00:00",
-      "expires_at": "2026-11-17T21:00:00+00:00",
-      "reasons": [
-        {
-          "category": "current_smallcap_activity",
-          "change_pct": 6.410259,
-          "session": "2026-11-10"
-        }
-      ],
-      "strength": 6.410259
     }
   ],
   "discovery_only": true,
   "status": "COMPLETED",
   "errors": [],
   "coverage": {
-    "pool_symbols": 564,
-    "historical_symbols_covered": 560,
+    "pool_symbols": 568,
+    "historical_symbols_covered": 562,
     "previous_session": "2026-11-10",
     "latest_completed_session": "2026-11-10",
     "ranking_scope": "Current screeners plus normal/manual/recently discovered eligible universe, not all US stocks",
